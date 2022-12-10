@@ -16,7 +16,7 @@ const wishes = [
     `We are wasting today by worrying about the past and tomorrow. So live today only.<br> Have a nice day!`,
     `We should learn from our failures and improve ourselves every day and move towards success.<br> Have a Good Day!`,
     `“Every day is a good day to be alive, whether the sun’s shining or not.” <br> Marty Robbins`,
-    `“Write it on your heart that every day is the best day<br> in the year.” <br> Ralph Waldo Emerson`,
+    `“Write it on your heart that every day is the best day in the year.” <br> Ralph Waldo Emerson`,
     `“Take each good day and relish each moment. Take each bad day and work to make it good.” <br> Lisa Dado`,
     `“Any day above ground is a good day. Before you complain about anything, be thankful for your life and the things that are still going well.” <br> Germany Kent`,
     `Smile in the mirror. Do that every morning and you’ll start to see a big difference in your life.” <br> Yoko Ono`,
@@ -33,7 +33,7 @@ const wishes = [
     `Today will be a wonderful day for you and your ways will be filled with favor.<br> Have a good day!`,
     `You have always desired great achievement of your dreams.<br> This day, you are a step closer to it.`,
     `Welcome every morning with a smile and hope.<br> Have a good day!`,
-    `Don’t settle for less today. You have greatness within you.<br> Have a good day!`,
+    `Don’t settle for less today.<br> You have greatness within you.<br> Have a good day!`,
     `Never regret in your life. Good things make you happy and the bad things give you experiences.<br> Have a good day!`
 ];
 
