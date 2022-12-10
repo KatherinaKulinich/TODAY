@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'Corinthia';
+    src: url('./fonts/Corinthia-Regular.woff2') format('woff2'),
+         url('./fonts/Corinthia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('./fonts/YesevaOne-Regular.woff2') format('woff2'),
+         url('./fonts/YesevaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
