@@ -38,7 +38,7 @@ const wishes = [
 ];
 
 const hexSymbols = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
-const week = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday", "Sunday"];
+const week = ["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const year = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 const container = document.querySelector('#container');
@@ -77,12 +77,14 @@ setInterval(getCurrentTime, 1000);
 
 //date
 
-let time = new Date;
-let currentDate = ('0' + time.getDate()).slice(-2) + ' ' + year[time.getMonth()] + ' ' + time.getFullYear();
+function getCurrentDate() {
+    let time = new Date;
+    let currentDate = ('0' + time.getDate()).slice(-2) + ' ' + year[time.getMonth()] + ' ' + time.getFullYear();
 
-date.innerHTML = currentDate;
-weekDay.innerHTML =  week[time.getDay()];
-
+    date.innerHTML = currentDate;
+    weekDay.innerHTML =  week[time.getDay()];
+}
+document.onload = getCurrentDate();
 
 
 //random background

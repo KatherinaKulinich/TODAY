@@ -41,7 +41,8 @@ body {
 #time {
     font-size: 180px;
     line-height: 190px;
-    text-shadow:2px 4px 0px #8a8a8a;
+    text-shadow: 2px 4px 0px #8a8a8a;
+    min-width: 730px;
 }
 
 #container {
