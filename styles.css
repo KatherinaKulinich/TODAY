@@ -16,51 +16,114 @@ body {
 }
 
 #weekDay {
-    font-size: 50px;
-    line-height: 56px;
+    font-size: 24px;
+    line-height: 30px;
     text-transform: uppercase;
-    text-shadow:2px 4px 0px #8a8a8a;
+    text-shadow: 2px 2px 0px #8a8a8a;
 }
 
 #date {
-    font-size: 88px;
-    line-height: 100px;
+    font-size: 35px;
+    line-height: 38px;
     text-transform: uppercase;
-    text-shadow: 2px 4px 0px #8a8a8a;
+    text-shadow: 2px 2px 0px #8a8a8a;
 }
 
 #wish {
-    font-size: 76px;
-    line-height: 80px;
+    font-size: 36px;
+    line-height: 39px;
     text-align: center;
-    min-height: 270px;
-    max-width: 1400px;
     font-family: 'Corinthia';
+    display: flex;
+    align-items: center;
 }
 
 #time {
-    font-size: 180px;
-    line-height: 190px;
-    text-shadow: 2px 4px 0px #8a8a8a;
-    min-width: 730px;
+    font-size: 80px;
+    line-height: 86px;
+    text-shadow: 2px 2px 0px #8a8a8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #container {
     height: 100vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.box {
+.date-box,
+.wish-box {
     width: 100%;
     display: flex;
+    padding: 20px;
     flex-direction: column;
     gap: 30px;
     align-items: center;
     justify-content: center;
-    padding: 70px;
     background-color: rgba(255, 255, 255, .1)
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    #date {
+        font-size: 56px;
+        line-height: 59px;
+    }
+
+    #wish {
+        font-size: 56px;
+        line-height: 60px;
+    }
+
+    #time {
+        font-size: 130px;
+        line-height: 140px;
+        text-shadow: 2px 4px 0px #8a8a8a;
+    }
+
+    #weekDay {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+
+
+
+@media (min-width: 1024px) {
+    #date {
+        font-size: 88px;
+        line-height: 100px;
+        text-shadow: 2px 4px 0px #8a8a8a;
+    }
+
+    #wish {
+        font-size: 76px;
+        line-height: 80px;
+    }
+
+    #time {
+        font-size: 180px;
+        line-height: 190px;
+    }
+
+    #weekDay {
+        font-size: 50px;
+        line-height: 56px;
+        text-shadow: 2px 4px 0px #8a8a8a;
+    }
+}
+
+@media (min-width: 1024px) {
+    #wish {
+        max-width: 1400px;
+    }
 }
